@@ -1,8 +1,13 @@
 body { 
       position: absolute;
+      text-shadow: 1px 1px;
+      font-weight: 200px;
+      font-size:smaller;
+      padding-left: 30%;
+      background-image: url(a.webp);
    
 }
-.fix{
+.fix {
     position:fixed;
     bottom:0px;
     left: 1000px;
@@ -10,8 +15,15 @@ body {
     height: 500px;
 
 }
+
+#result{
+  color: #f34079;
+  font-size:larger;
+  font-weight: 200px;
+}
 h1 {
     top: 0;
+    text-shadow: 1px 1px;
     width: 200px;
     margin-top: 0;
     padding: 5px;
